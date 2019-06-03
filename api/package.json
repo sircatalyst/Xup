@@ -1,0 +1,24 @@
+{
+  "name": "meal-booking-api",
+  "version": "1.0.0",
+  "description": "a meal booking api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sircatalyst/Xup.git"
+  },
+  "keywords": [
+    "food",
+    "meal",
+    "booking"
+  ],
+  "author": "Temitope Bamidele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sircatalyst/Xup/issues"
+  },
+  "homepage": "https://github.com/sircatalyst/Xup#readme"
+}
