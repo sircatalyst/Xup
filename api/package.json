@@ -4,6 +4,7 @@
   "description": "a meal booking api",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon --exec babel-node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/sircatalyst/Xup/issues"
   },
-  "homepage": "https://github.com/sircatalyst/Xup#readme"
+  "homepage": "https://github.com/sircatalyst/Xup#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0"
+  }
 }
